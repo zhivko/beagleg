@@ -281,6 +281,7 @@ hacking permits.
 [BUMPS]: https://github.com/hzeller/bumps
 [BUMPS-img]: ./img/bumps-connect.jpg
 
+## MY NOTES
 To enable PRU on BBB, do following:
 sudo su
 echo BB-BONE-PRU-01 > /sys/devices/bone_capemgr.9/slots
