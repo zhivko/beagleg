@@ -280,3 +280,13 @@ hacking permits.
 [run-vid]: ./img/beagleg-vid-thumb.jpg
 [BUMPS]: https://github.com/hzeller/bumps
 [BUMPS-img]: ./img/bumps-connect.jpg
+
+To enable PRU on BBB, do following:
+sudo su
+echo BB-BONE-PRU-01 > /sys/devices/bone_capemgr.9/slots
+
+if you get an error
+X11 connection rejected because of wrong authentication.
+for command sudo su, you need to add following lines to ~/.bashrc:
+export XAUTHORITY=~/.Xauthority
+
